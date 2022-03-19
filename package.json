@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danteocualesjr/Red-Bike-NFT/issues"
   },
-  "homepage": "https://github.com/danteocualesjr/Red-Bike-NFT#readme"
+  "homepage": "https://github.com/danteocualesjr/Red-Bike-NFT#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.1"
+  }
 }

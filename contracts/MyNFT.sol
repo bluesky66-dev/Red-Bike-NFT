@@ -14,7 +14,6 @@ contract MyNFT is ERC721, Ownable {
     function mintNFT(address recipient, string memory tokenURI)
         public onlyOwner
         returns (uint256)
-
     {
         _tokenIds.increment();
 

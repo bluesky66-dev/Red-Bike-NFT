@@ -23,6 +23,5 @@ contract MyNFT is ERC721, Ownable {
         _mint(recipient, newItemId);
         _setTokenURI(newItemId, tokenURI);
         return newItemId;
-    }      
-              
+    }                
 }
